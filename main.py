@@ -1,8 +1,8 @@
-import shutil
-shutil.rmtree(cwd + os.sep + '__pycache__')
-
 from results import *
 print('Program sync completed!')
+
+import shutil
+shutil.rmtree(cwd + os.sep + '__pycache__')
 
 from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
