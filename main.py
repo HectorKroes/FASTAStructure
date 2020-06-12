@@ -1,3 +1,6 @@
+import shutil
+shutil.rmtree(cwd + os.sep + '__pycache__')
+
 from results import *
 print('Program sync completed!')
 
@@ -9,12 +12,8 @@ print('Modules imported!')
 record = SeqIO.read(fstf + "2WFU_A.fasta", format="fasta")
 print('Sequence read!')
 
+print('Starting BLAST!')
 result_handle = NCBIWWW.qblast("blastp", "pdb", record.seq)
 print('BLAST done!')
 
-with open(tmpf + "blastp.xml", "w") as out_handle:
-	out_handle.write(result_handle.read())
-out_handle.close()
-print('XML file created!')
-
-readxml("blastp.xml")
+results(result_handle)
