@@ -6,7 +6,7 @@ from Bio.Blast import NCBIXML
 from Bio import SeqIO
 print('Modules imported!')
 
-record = SeqIO.read("2WFU_A.fasta", format="fasta")
+record = SeqIO.read(fstf + "2WFU_A.fasta", format="fasta")
 print('Sequence read!')
 
 result_handle = NCBIWWW.qblast("blastp", "pdb", record.seq)
