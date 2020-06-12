@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_38887</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>22</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_38887</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>22</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|2WFU|A</Hit_id>
+  <Hit_def>Chain A, Probable Insulin-like Peptide 5 A Chain [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>2WFU_A</Hit_accession>
+  <Hit_len>22</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>3.00169e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>22</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCDS</Hsp_qseq>
+      <Hsp_hseq>GVVDSCCRNSCSFSTLRAYCDS</Hsp_hseq>
+      <Hsp_midline>GVVDSCCRNSCSFSTLRAYCDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|2WFV|A</Hit_id>
+  <Hit_def>Chain A, Probable Insulin-like Peptide 5 A Chain [Drosophila melanogaster] &gt;pdb|6FEY|E Chain E, Probable insulin-like peptide 5 [Drosophila melanogaster] &gt;pdb|6FEY|G Chain G, Probable insulin-like peptide 5 [Drosophila melanogaster] &gt;pdb|6FEY|I Chain I, Probable insulin-like peptide 5 [Drosophila melanogaster] &gt;pdb|6FEY|K Chain K, Probable insulin-like peptide 5 [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>2WFV_A</Hit_accession>
+  <Hit_len>25</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>3.25463e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>25</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCDS</Hsp_qseq>
+      <Hsp_hseq>GVVDSCCRNSCSFSTLRAYCDS</Hsp_hseq>
+      <Hsp_midline>GVVDSCCRNSCSFSTLRAYCDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1JCA|A</Hit_id>
+  <Hit_def>Chain A, Insulin A [synthetic construct] &gt;pdb|1JCA|C Chain C, Insulin A [synthetic construct]</Hit_def>
+  <Hit_accession>1JCA_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.146495</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCKSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC++ CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|5MHD|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>5MHD_A</Hit_accession>
+  <Hit_len>22</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>0.202093</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>22</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCDS</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCNS</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1BOM|A</Hit_id>
+  <Hit_def>Chain A, BOMBYXIN-II,BOMBYXIN A-2 [Bombyx mori] &gt;pdb|1BON|A Chain A, BOMBYXIN-II,BOMBYXIN A-2 [Bombyx mori]</Hit_def>
+  <Hit_accession>1BOM_A</Hit_accession>
+  <Hit_len>20</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>0.21134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>20</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYC</Hsp_qseq>
+      <Hsp_hseq>GIVDECCLRPCSVDVLLSYC</Hsp_hseq>
+      <Hsp_midline>G+VD CC   CS   L +YC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|5WDM|A</Hit_id>
+  <Hit_def>Chain A, Single-chain insulin analog [Homo sapiens] &gt;pdb|5WDM|B Chain B, Single-chain insulin analog [Homo sapiens] &gt;pdb|5WDM|C Chain C, Single-chain insulin analog [Homo sapiens] &gt;pdb|5WDM|D Chain D, Single-chain insulin analog [Homo sapiens] &gt;pdb|5WDM|E Chain E, Single-chain insulin analog [Homo sapiens] &gt;pdb|5WDM|F Chain F, Single-chain insulin analog [Homo sapiens]</Hit_def>
+  <Hit_accession>5WDM_A</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.230476</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCHSICSLEQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|5WBT|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>5WBT_A</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.254102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCHSICSLEQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|1IOH|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (INSULIN PRECURSOR) [Homo sapiens] &gt;pdb|1RWE|A Chain A, Insulin [synthetic construct] &gt;pdb|1RWE|C Chain C, Insulin [synthetic construct]</Hit_def>
+  <Hit_accession>1IOH_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.287869</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCHSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|6VET|A</Hit_id>
+  <Hit_def>Chain A, Insulin A chain [Homo sapiens] &gt;pdb|6VET|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|6VET|E Chain E, Insulin A chain [Homo sapiens]</Hit_def>
+  <Hit_accession>6VET_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>0.365794</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCHRICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC   CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|1TGR|A</Hit_id>
+  <Hit_def>Chain A, Insulin-like Growth Factor Ia [Homo sapiens] &gt;pdb|1TGR|B Chain B, Insulin-like Growth Factor Ia [Homo sapiens]</Hit_def>
+  <Hit_accession>1TGR_A</Hit_accession>
+  <Hit_len>52</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.411916</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYC</Hsp_qseq>
+      <Hsp_hseq>GIVDECCFRSCDLRRLEMYC</Hsp_hseq>
+      <Hsp_midline>G+VD CC  SC    L  YC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|1B9G|A</Hit_id>
+  <Hit_def>Chain A, Insulin-Like-Growth-Factor-1 [Homo sapiens]</Hit_def>
+  <Hit_accession>1B9G_A</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>0.413808</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYC</Hsp_qseq>
+      <Hsp_hseq>GIVDECCFRSCDLRRLEMYC</Hsp_hseq>
+      <Hsp_midline>G+VD CC  SC    L  YC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|2BN3|A</Hit_id>
+  <Hit_def>Chain A, Insulin Before A High Dose X-Ray Burn [Bos taurus] &gt;pdb|4BS3|A Chain A, INSULIN A CHAIN [Bos taurus] &gt;pdb|6Q8Q|A Chain A, Insulin [Bos taurus]</Hit_def>
+  <Hit_accession>2BN3_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.518211</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSVCSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|1APH|A</Hit_id>
+  <Hit_def>Chain A, INSULIN A CHAIN (PH 7) [Bos taurus] &gt;pdb|1BPH|A Chain A, INSULIN A CHAIN (PH 9) [Bos taurus] &gt;pdb|1CPH|A Chain A, INSULIN (PH 10) [Bos taurus] &gt;pdb|1DPH|A Chain A, INSULIN A CHAIN (PH 11) [Bos taurus] &gt;pdb|1PID|A Chain A, Despentapeptide Insulin [Bos taurus] &gt;pdb|1PID|C Chain C, Despentapeptide Insulin [Bos taurus] &gt;pdb|2A3G|A Chain A, Insulin [Bos taurus] &gt;pdb|2A3G|C Chain C, Insulin [Bos taurus] &gt;pdb|2BN1|A Chain A, Insulin A Chain [Bos taurus] &gt;pdb|2INS|A Chain A, DES-PHE B1 INSULIN (CHAIN A) [Bos taurus] &gt;pdb|2INS|C Chain C, DES-PHE B1 INSULIN (CHAIN A) [Bos taurus] &gt;pdb|2ZP6|A Chain A, Crystal Structure Of Bovine Insulin (Hexameric Form) [Bos taurus] &gt;pdb|2ZP6|C Chain C, Crystal Structure Of Bovine Insulin (Hexameric Form) [Bos taurus] &gt;pdb|4E7T|A Chain A, Insulin A chain [Bos taurus] &gt;pdb|4E7T|C Chain C, Insulin A chain [Bos taurus] &gt;pdb|4E7U|A Chain A, Insulin A chain [Bos taurus] &gt;pdb|4E7U|C Chain C, Insulin A chain [Bos taurus] &gt;pdb|4E7V|1 Chain 1, Insulin A chain [Bos taurus] &gt;pdb|4E7V|3 Chain 3, Insulin A chain [Bos taurus] &gt;pdb|4E7V|5 Chain 5, Insulin A chain [Bos taurus] &gt;pdb|4E7V|A Chain A, Insulin A chain [Bos taurus] &gt;pdb|4E7V|C Chain C, Insulin A chain [Bos taurus] &gt;pdb|4E7V|E Chain E, Insulin A chain [Bos taurus] &gt;pdb|4E7V|G Chain G, Insulin A chain [Bos taurus] &gt;pdb|4E7V|I Chain I, Insulin A chain [Bos taurus] &gt;pdb|4E7V|K Chain K, Insulin A chain [Bos taurus] &gt;pdb|4E7V|M Chain M, Insulin A chain [Bos taurus] &gt;pdb|4E7V|O Chain O, Insulin A chain [Bos taurus] &gt;pdb|4E7V|Q Chain Q, Insulin A chain [Bos taurus] &gt;pdb|4E7V|S Chain S, Insulin A chain [Bos taurus] &gt;pdb|4E7V|U Chain U, Insulin A chain [Bos taurus] &gt;pdb|4E7V|W Chain W, Insulin A chain [Bos taurus] &gt;pdb|4E7V|Y Chain Y, Insulin A chain [Bos taurus] &gt;pdb|4I5Y|A Chain A, Insulin [Bos taurus] &gt;pdb|4I5Z|A Chain A, Insulin [Bos taurus] &gt;pdb|4IDW|A Chain A, Insulin A Chain [Bos taurus] &gt;pdb|4IDW|C Chain C, Insulin A Chain [Bos taurus] &gt;pdb|4IHN|A Chain A, Insulin A Chain [Bos taurus] &gt;pdb|4M4F|A Chain A, Insulin [Bos taurus] &gt;pdb|4M4F|C Chain C, Insulin [Bos taurus] &gt;pdb|4M4H|A Chain A, Insulin [Bos taurus] &gt;pdb|4M4H|C Chain C, Insulin [Bos taurus] &gt;pdb|4M4I|A Chain A, Insulin [Bos taurus] &gt;pdb|4M4I|C Chain C, Insulin [Bos taurus] &gt;pdb|4M4J|A Chain A, Insulin [Bos taurus] &gt;pdb|4M4J|C Chain C, Insulin [Bos taurus] &gt;pdb|4M4L|A Chain A, Insulin [Bos taurus] &gt;pdb|4M4L|C Chain C, Insulin [Bos taurus] &gt;pdb|4M4M|A Chain A, Insulin [Bos taurus] &gt;pdb|4M4M|C Chain C, Insulin [Bos taurus] &gt;pdb|5KQV|A Chain A, Insulin [Bos taurus] &gt;pdb|5KQV|I Chain I, Insulin [Bos taurus] &gt;pdb|5MIZ|A Chain A, Insulin [Bos taurus] &gt;pdb|6OR0|A Chain A, Insulin chain A [Bos taurus] &gt;pdb|6QQ7|A Chain A, Insulin [Bos taurus] &gt;pdb|6QQG|A Chain A, Insulin [Bos taurus] &gt;pdb|6QRH|A Chain A, Insulin [Bos taurus] &gt;pdb|6QRK|A Chain A, Insulin [Bos taurus]</Hit_def>
+  <Hit_accession>1APH_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.559225</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCASVCSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|1A7F|A</Hit_id>
+  <Hit_def>Chain A, Insulin Mutant B16 Glu, B24 Gly, Des-B30, Nmr, 20 Structures [Homo sapiens] &gt;pdb|1AI0|A Chain A, R6 Human Insulin Hexamer (Non-Symmetric), Nmr, 10 Structures [Homo sapiens] &gt;pdb|1AI0|C Chain C, R6 Human Insulin Hexamer (Non-Symmetric), Nmr, 10 Structures [Homo sapiens] &gt;pdb|1AI0|E Chain E, R6 Human Insulin Hexamer (Non-Symmetric), Nmr, 10 Structures [Homo sapiens] &gt;pdb|1AI0|G Chain G, R6 Human Insulin Hexamer (Non-Symmetric), Nmr, 10 Structures [Homo sapiens] &gt;pdb|1AI0|I Chain I, R6 Human Insulin Hexamer (Non-Symmetric), Nmr, 10 Structures [Homo sapiens] &gt;pdb|1AI0|K Chain K, R6 Human Insulin Hexamer (Non-Symmetric), Nmr, 10 Structures [Homo sapiens] &gt;pdb|1AIY|A Chain A, R6 Human Insulin Hexamer (Symmetric), Nmr, 10 Structures [Homo sapiens] &gt;pdb|1AIY|C Chain C, R6 Human Insulin Hexamer (Symmetric), Nmr, 10 Structures [Homo sapiens] &gt;pdb|1AIY|E Chain E, R6 Human Insulin Hexamer (Symmetric), Nmr, 10 Structures [Homo sapiens] &gt;pdb|1AIY|G Chain G, R6 Human Insulin Hexamer (Symmetric), Nmr, 10 Structures [Homo sapiens] &gt;pdb|1AIY|I Chain I, R6 Human Insulin Hexamer (Symmetric), Nmr, 10 Structures [Homo sapiens] &gt;pdb|1AIY|K Chain K, R6 Human Insulin Hexamer (Symmetric), Nmr, 10 Structures [Homo sapiens] &gt;pdb|1B17|A Chain A, Ph Affects Glu B13 Switching And Sulfate Binding In Cubic Insulin Crystals (Ph 5.00 Coordinates) [Sus scrofa] &gt;pdb|1B18|A Chain A, Ph Affects Glu B13 Switching And Sulfate Binding In Cubic Insulin Crystals (Ph 5.53 Coordinates) [Sus scrofa] &gt;pdb|1B19|A Chain A, Ph Affects Glu B13 Switching And Sulfate Binding In Cubic Insulin Crystals (Ph 5.80 Coordinates) [Sus scrofa] &gt;pdb|1B2A|A Chain A, Ph Affects Glu B13 Switching And Sulfate Binding In Cubic Insulin Crystals (Ph 6.00 Coordinates) [Sus scrofa] &gt;pdb|1B2B|A Chain A, Ph Affects Glu B13 Switching And Sulfate Binding In Cubic Insulin Crystals (Ph 6.16 Coordinates) [Sus scrofa] &gt;pdb|1B2C|A Chain A, Ph Affects Glu B13 Switching And Sulfate Binding In Cubic Insulin Crystals (Ph 6.26 Coordinates) [Sus scrofa] &gt;pdb|1B2D|A Chain A, Ph Affects Glu B13 Switching And Sulfate Binding In Cubic Insulin Crystals (Ph 6.35 Coordinates) [Sus scrofa] &gt;pdb|1B2E|A Chain A, Ph Affects Glu B13 Switching And Sulfate Binding In Cubic Insulin Crystals (Ph 6.50 Coordinates) [Sus scrofa] &gt;pdb|1B2F|A Chain A, Ph Affects Glu B13 Switching And Sulfate Binding In Cubic Insulin Crystals (Ph 6.98 Coordinates) [Sus scrofa] &gt;pdb|1B2G|A Chain A, Ph Affects Glu B13 Switching And Sulfate Binding In Cubic Insulin Crystals (Ph 9.00 Coordinates) [Sus scrofa] &gt;pdb|1B9E|A Chain A, Human Insulin Mutant Serb9glu [Homo sapiens] &gt;pdb|1B9E|C Chain C, Human Insulin Mutant Serb9glu [Homo sapiens] &gt;pdb|1BEN|A Chain A, HUMAN INSULIN &gt;pdb|1BEN|C Chain C, HUMAN INSULIN &gt;pdb|1BZV|A Chain A, INSULIN [unidentified] &gt;pdb|1DEI|A Chain A, INSULIN [Sus scrofa] &gt;pdb|1DEI|C Chain C, INSULIN [Sus scrofa] &gt;pdb|1EV3|A Chain A, Insulin [synthetic construct] &gt;pdb|1EV3|C Chain C, Insulin [synthetic construct] &gt;pdb|1EV6|A Chain A, Structure Of The Monoclinic Form Of The M-CresolINSULIN R6 Hexamer [synthetic construct] &gt;pdb|1EV6|C Chain C, Structure Of The Monoclinic Form Of The M-CresolINSULIN R6 Hexamer [synthetic construct] &gt;pdb|1EV6|E Chain E, Structure Of The Monoclinic Form Of The M-CresolINSULIN R6 Hexamer [synthetic construct] &gt;pdb|1EV6|G Chain G, Structure Of The Monoclinic Form Of The M-CresolINSULIN R6 Hexamer [synthetic construct] &gt;pdb|1EV6|I Chain I, Structure Of The Monoclinic Form Of The M-CresolINSULIN R6 Hexamer [synthetic construct] &gt;pdb|1EV6|K Chain K, Structure Of The Monoclinic Form Of The M-CresolINSULIN R6 Hexamer [synthetic construct] &gt;pdb|1EVR|A Chain A, INSULIN [synthetic construct] &gt;pdb|1EVR|C Chain C, INSULIN [synthetic construct] &gt;pdb|1EVR|E Chain E, INSULIN [synthetic construct] &gt;pdb|1EVR|G Chain G, INSULIN [synthetic construct] &gt;pdb|1EVR|I Chain I, INSULIN [synthetic construct] &gt;pdb|1EVR|K Chain K, INSULIN [synthetic construct] &gt;pdb|1FU2|A Chain A, INSULIN, A CHAIN [synthetic construct] &gt;pdb|1FU2|C Chain C, INSULIN, A CHAIN [synthetic construct] &gt;pdb|1FU2|E Chain E, INSULIN, A CHAIN [synthetic construct] &gt;pdb|1FU2|G Chain G, INSULIN, A CHAIN [synthetic construct] &gt;pdb|1FUB|A Chain A, INSULIN, A CHAIN [synthetic construct] &gt;pdb|1FUB|C Chain C, INSULIN, A CHAIN [synthetic construct] &gt;pdb|1G7A|A Chain A, INSULIN A-CHAIN [synthetic construct] &gt;pdb|1G7A|C Chain C, INSULIN A-CHAIN [synthetic construct] &gt;pdb|1G7A|E Chain E, INSULIN A-CHAIN [synthetic construct] &gt;pdb|1G7A|G Chain G, INSULIN A-CHAIN [synthetic construct] &gt;pdb|1G7B|A Chain A, INSULIN A-CHAIN [synthetic construct] &gt;pdb|1G7B|C Chain C, INSULIN A-CHAIN [synthetic construct] &gt;pdb|1G7B|E Chain E, INSULIN A-CHAIN [synthetic construct] &gt;pdb|1G7B|G Chain G, INSULIN A-CHAIN [synthetic construct] &gt;pdb|1GUJ|A Chain A, INSULIN [Homo sapiens] &gt;pdb|1GUJ|C Chain C, INSULIN [Homo sapiens] &gt;pdb|1HIQ|A Chain A, INSULIN [Homo sapiens] &gt;pdb|1HIS|A Chain A, Structure And Dynamics Of Des-Pentapeptide-Insulin In Solution: The Molten-Globule Hypothesis. [Homo sapiens] &gt;pdb|1HIT|A Chain A, Insulin [Homo sapiens] &gt;pdb|1HLS|A Chain A, INSULIN [Homo sapiens] &gt;pdb|1HTV|A Chain A, Crystal Structure Of Destripeptide (B28-B30) Insulin [Homo sapiens] &gt;pdb|1HTV|C Chain C, Crystal Structure Of Destripeptide (B28-B30) Insulin [Homo sapiens] &gt;pdb|1HTV|E Chain E, Crystal Structure Of Destripeptide (B28-B30) Insulin [Homo sapiens] &gt;pdb|1HTV|G Chain G, Crystal Structure Of Destripeptide (B28-B30) Insulin [Homo sapiens] &gt;pdb|1HTV|I Chain I, Crystal Structure Of Destripeptide (B28-B30) Insulin [Homo sapiens] &gt;pdb|1HTV|K Chain K, Crystal Structure Of Destripeptide (B28-B30) Insulin [Homo sapiens] &gt;pdb|1HUI|A Chain A, INSULIN [Homo sapiens] &gt;pdb|1IZA|A Chain A, Insulin [Sus scrofa] &gt;pdb|1IZA|C Chain C, Insulin [Sus scrofa] &gt;pdb|1IZB|A Chain A, Insulin [Sus scrofa] &gt;pdb|1IZB|C Chain C, Insulin [Sus scrofa] &gt;pdb|1JCO|A Chain A, Solution Structure Of The Monomeric [thr(B27)-&gt;pro,Pro(B28)- &gt;thr] Insulin Mutant (Pt Insulin) [Homo sapiens] &gt;pdb|1LPH|A Chain A, Insulin [Homo sapiens] &gt;pdb|1LPH|C Chain C, Insulin [Homo sapiens] &gt;pdb|1M5A|A Chain A, Insulin A Chain [Sus scrofa] &gt;pdb|1M5A|C Chain C, Insulin A Chain [Sus scrofa] &gt;pdb|1MHJ|A Chain A, INSULIN [Homo sapiens] &gt;pdb|1MPJ|A Chain A, Phenol Insulin [Sus scrofa] &gt;pdb|1MPJ|C Chain C, Phenol Insulin [Sus scrofa] &gt;pdb|1MSO|A Chain A, Insulin A-Chain [synthetic construct] &gt;pdb|1MSO|C Chain C, Insulin A-Chain [synthetic construct] &gt;pdb|1OS3|A Chain A, Insulin [Homo sapiens] &gt;pdb|1OS3|C Chain C, Insulin [Homo sapiens] &gt;pdb|1OS4|A Chain A, Insulin [Homo sapiens] &gt;pdb|1OS4|C Chain C, Insulin [Homo sapiens] &gt;pdb|1OS4|E Chain E, Insulin [Homo sapiens] &gt;pdb|1OS4|G Chain G, Insulin [Homo sapiens] &gt;pdb|1OS4|I Chain I, Insulin [Homo sapiens] &gt;pdb|1OS4|K Chain K, Insulin [Homo sapiens] &gt;pdb|1QIY|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|1QIY|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|1QIY|E Chain E, Insulin A Chain [Homo sapiens] &gt;pdb|1QIY|G Chain G, Insulin A Chain [Homo sapiens] &gt;pdb|1QIY|I Chain I, Insulin A Chain [Homo sapiens] &gt;pdb|1QIY|K Chain K, Insulin A Chain [Homo sapiens] &gt;pdb|1QIZ|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|1QIZ|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|1QIZ|E Chain E, Insulin A Chain [Homo sapiens] &gt;pdb|1QIZ|G Chain G, Insulin A Chain [Homo sapiens] &gt;pdb|1QIZ|I Chain I, Insulin A Chain [Homo sapiens] &gt;pdb|1QIZ|K Chain K, Insulin A Chain [Homo sapiens] &gt;pdb|1QJ0|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|1QJ0|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|1SDB|A Chain A, Porcine Desb1-2 Despentapeptide(B26-B30) Insulin [Sus scrofa] &gt;pdb|1SF1|A Chain A, INSULIN A CHAIN [Homo sapiens] &gt;pdb|1SJT|A Chain A, Mini-Proinsulin, Two Chain Insulin Analog Mutant: Des B30, His(B 10)asp, Pro(B 28)asp, Nmr, 20 Structures [Homo sapiens] &gt;pdb|1T1K|A Chain A, Insulin &gt;pdb|1T1P|A Chain A, insulin &gt;pdb|1T1Q|A Chain A, insulin &gt;pdb|1TRZ|A Chain A, Insulin [synthetic construct] &gt;pdb|1TRZ|C Chain C, Insulin [synthetic construct] &gt;pdb|1TYL|A Chain A, Insulin [Homo sapiens] &gt;pdb|1TYL|C Chain C, Insulin [Homo sapiens] &gt;pdb|1TYM|A Chain A, Insulin [Homo sapiens] &gt;pdb|1TYM|C Chain C, Insulin [Homo sapiens] &gt;pdb|1UZ9|A Chain A, Insulin [Homo sapiens] &gt;pdb|1W8P|A Chain A, Insulin A-chain [Homo sapiens] &gt;pdb|1W8P|C Chain C, Insulin A-chain [Homo sapiens] &gt;pdb|1W8P|E Chain E, Insulin A-chain [Homo sapiens] &gt;pdb|1W8P|G Chain G, Insulin A-chain [Homo sapiens] &gt;pdb|1W8P|I Chain I, Insulin A-chain [Homo sapiens] &gt;pdb|1W8P|K Chain K, Insulin A-chain [Homo sapiens] &gt;pdb|1WAV|A Chain A, Insulin [Sus scrofa] &gt;pdb|1WAV|C Chain C, Insulin [Sus scrofa] &gt;pdb|1WAV|E Chain E, Insulin [Sus scrofa] &gt;pdb|1WAV|G Chain G, Insulin [Sus scrofa] &gt;pdb|1WAV|I Chain I, Insulin [Sus scrofa] &gt;pdb|1WAV|K Chain K, Insulin [Sus scrofa] &gt;pdb|1XDA|A Chain A, Fatty Acid Acylated Insulin [Homo sapiens] &gt;pdb|1XDA|C Chain C, Fatty Acid Acylated Insulin [Homo sapiens] &gt;pdb|1XDA|E Chain E, Fatty Acid Acylated Insulin [Homo sapiens] &gt;pdb|1XDA|G Chain G, Fatty Acid Acylated Insulin [Homo sapiens] &gt;pdb|1XGL|A Chain A, Human Insulin Disulfide Isomer, Nmr, 10 Structures [Homo sapiens] &gt;pdb|1ZEG|A Chain A, Insulin [Homo sapiens] &gt;pdb|1ZEG|C Chain C, Insulin [Homo sapiens] &gt;pdb|1ZEH|A Chain A, Structure Of Insulin [Homo sapiens] &gt;pdb|1ZEH|C Chain C, Structure Of Insulin [Homo sapiens] &gt;pdb|1ZNI|A Chain A, INSULIN [Sus scrofa] &gt;pdb|1ZNI|C Chain C, INSULIN [Sus scrofa] &gt;pdb|1ZNJ|A Chain A, Insulin [Homo sapiens] &gt;pdb|1ZNJ|C Chain C, Insulin [Homo sapiens] &gt;pdb|1ZNJ|E Chain E, Insulin [Homo sapiens] &gt;pdb|1ZNJ|G Chain G, Insulin [Homo sapiens] &gt;pdb|1ZNJ|I Chain I, Insulin [Homo sapiens] &gt;pdb|1ZNJ|K Chain K, Insulin [Homo sapiens] &gt;pdb|2AIY|A Chain A, R6 Human Insulin Hexamer (Symmetric), Nmr, 20 Structures [synthetic construct] &gt;pdb|2AIY|C Chain C, R6 Human Insulin Hexamer (Symmetric), Nmr, 20 Structures [synthetic construct] &gt;pdb|2AIY|E Chain E, R6 Human Insulin Hexamer (Symmetric), Nmr, 20 Structures [synthetic construct] &gt;pdb|2AIY|G Chain G, R6 Human Insulin Hexamer (Symmetric), Nmr, 20 Structures [synthetic construct] &gt;pdb|2AIY|I Chain I, R6 Human Insulin Hexamer (Symmetric), Nmr, 20 Structures [synthetic construct] &gt;pdb|2AIY|K Chain K, R6 Human Insulin Hexamer (Symmetric), Nmr, 20 Structures [synthetic construct] &gt;pdb|2C8Q|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2C8R|A Chain A, Insuline(60sec) And Uv Laser Excited Fluorescence [Homo sapiens] &gt;pdb|2CEU|A Chain A, Despentapeptide Insulin In Acetic Acid (Ph 2) [Homo sapiens] &gt;pdb|2CEU|C Chain C, Despentapeptide Insulin In Acetic Acid (Ph 2) [Homo sapiens] &gt;pdb|2EFA|A Chain A, Insulin [Sus scrofa] &gt;pdb|2G4M|A Chain A, Insulin A Chain [Sus scrofa] &gt;pdb|2H67|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2HH4|A Chain A, insulin A chain [Homo sapiens] &gt;pdb|2HHO|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2HIU|A Chain A, INSULIN [Homo sapiens] &gt;pdb|2JMN|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2JV1|A Chain A, Insulin [Homo sapiens] &gt;pdb|2K91|A Chain A, Insulin [Homo sapiens] &gt;pdb|2K9R|A Chain A, Insulin [Homo sapiens] &gt;pdb|2KJJ|A Chain A, Insulin [Homo sapiens] &gt;pdb|2KJU|A Chain A, Insulin [Homo sapiens] &gt;pdb|2KQQ|A Chain A, Insulin B chain [Homo sapiens] &gt;pdb|2L1Y|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2M1D|A Chain A, Insulin [Homo sapiens] &gt;pdb|2M1E|A Chain A, Insulin [Homo sapiens] &gt;pdb|2M2M|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2M2N|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2M2O|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2M2P|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2MLI|A Chain A, Insulin [Homo sapiens] &gt;pdb|2MPG|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2MPI|A Chain A, insulin chain A [Homo sapiens] &gt;pdb|2MVC|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2MVD|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2N2V|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2N2W|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2N2X|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2OLY|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2OLY|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|2OLY|E Chain E, Insulin A chain [Homo sapiens] &gt;pdb|2OLY|G Chain G, Insulin A chain [Homo sapiens] &gt;pdb|2OLY|I Chain I, Insulin A chain [Homo sapiens] &gt;pdb|2OLY|K Chain K, Insulin A chain [Homo sapiens] &gt;pdb|2OLZ|A Chain A, Insulin A [Homo sapiens] &gt;pdb|2OLZ|C Chain C, Insulin A [Homo sapiens] &gt;pdb|2OLZ|E Chain E, Insulin A [Homo sapiens] &gt;pdb|2OLZ|G Chain G, Insulin A [Homo sapiens] &gt;pdb|2OLZ|I Chain I, Insulin A [Homo sapiens] &gt;pdb|2OLZ|K Chain K, Insulin A [Homo sapiens] &gt;pdb|2OM0|1 Chain 1, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|3 Chain 3, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|E Chain E, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|G Chain G, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|I Chain I, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|K Chain K, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|Q Chain Q, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|S Chain S, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|U Chain U, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|X Chain X, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|a Chain a, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|c Chain c, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|e Chain e, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|g Chain g, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|i Chain i, Insulin A chain [Homo sapiens] &gt;pdb|2OM0|k Chain k, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|1 Chain 1, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|3 Chain 3, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|E Chain E, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|G Chain G, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|I Chain I, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|K Chain K, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|Q Chain Q, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|S Chain S, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|U Chain U, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|X Chain X, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|a Chain a, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|c Chain c, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|e Chain e, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|g Chain g, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|i Chain i, Insulin A chain [Homo sapiens] &gt;pdb|2OM1|k Chain k, Insulin A chain [Homo sapiens] &gt;pdb|2OMG|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2OMG|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|2OMG|E Chain E, Insulin A chain [Homo sapiens] &gt;pdb|2OMH|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2OMH|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|2OMH|E Chain E, Insulin A chain [Homo sapiens] &gt;pdb|2OMI|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2OMI|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|2OMI|E Chain E, Insulin A Chain [Homo sapiens] &gt;pdb|2OMI|G Chain G, Insulin A Chain [Homo sapiens] &gt;pdb|2OMI|I Chain I, Insulin A Chain [Homo sapiens] &gt;pdb|2OMI|K Chain K, Insulin A Chain [Homo sapiens] &gt;pdb|2RN5|A Chain A, Insulin [Homo sapiens] &gt;pdb|2TCI|A Chain A, Thiocyanate Insulin [Sus scrofa] &gt;pdb|2TCI|C Chain C, Thiocyanate Insulin [Sus scrofa] &gt;pdb|2VJZ|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2VJZ|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|2VK0|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2VK0|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|2WC0|C Chain C, Crystal Structure Of Human Insulin Degrading Enzyme In Complex With Iodinated Insulin [synthetic construct] &gt;pdb|2WC0|E Chain E, Crystal Structure Of Human Insulin Degrading Enzyme In Complex With Iodinated Insulin [synthetic construct] &gt;pdb|2WRU|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2WRV|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2WRW|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2WRX|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2WRX|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|2WS0|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2WS1|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2WS4|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2WS6|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2WS6|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|2WS6|E Chain E, Insulin A Chain [Homo sapiens] &gt;pdb|2WS6|G Chain G, Insulin A Chain [Homo sapiens] &gt;pdb|2WS6|I Chain I, Insulin A Chain [Homo sapiens] &gt;pdb|2WS6|K Chain K, Insulin A Chain [Homo sapiens] &gt;pdb|2WS7|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|2WS7|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|2WS7|E Chain E, Insulin A Chain [Homo sapiens] &gt;pdb|2WS7|G Chain G, Insulin A Chain [Homo sapiens] &gt;pdb|2WS7|I Chain I, Insulin A Chain [Homo sapiens] &gt;pdb|2WS7|K Chain K, Insulin A Chain [Homo sapiens] &gt;pdb|2ZPP|A Chain A, Insulin A chain [Sus scrofa] &gt;pdb|3AIY|A Chain A, R6 Human Insulin Hexamer (Symmetric), Nmr, Refined Average Structure [synthetic construct] &gt;pdb|3AIY|C Chain C, R6 Human Insulin Hexamer (Symmetric), Nmr, Refined Average Structure [synthetic construct] &gt;pdb|3AIY|E Chain E, R6 Human Insulin Hexamer (Symmetric), Nmr, Refined Average Structure [synthetic construct] &gt;pdb|3AIY|G Chain G, R6 Human Insulin Hexamer (Symmetric), Nmr, Refined Average Structure [synthetic construct] &gt;pdb|3AIY|I Chain I, R6 Human Insulin Hexamer (Symmetric), Nmr, Refined Average Structure [synthetic construct] &gt;pdb|3AIY|K Chain K, R6 Human Insulin Hexamer (Symmetric), Nmr, Refined Average Structure [synthetic construct] &gt;pdb|3BXQ|A Chain A, Insulin A Chain [synthetic construct] &gt;pdb|3BXQ|C Chain C, Insulin A Chain [synthetic construct] &gt;pdb|3E7Y|A Chain A, Structure Of Human Insulin [Homo sapiens] &gt;pdb|3E7Y|C Chain C, Structure Of Human Insulin [Homo sapiens] &gt;pdb|3E7Z|A Chain A, Structure Of Human Insulin [Homo sapiens] &gt;pdb|3E7Z|C Chain C, Structure Of Human Insulin [Homo sapiens] &gt;pdb|3EXX|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|3EXX|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|3FHP|A Chain A, Insulin [Sus scrofa] &gt;pdb|3FHP|C Chain C, Insulin [Sus scrofa] &gt;pdb|3I3Z|A Chain A, Human Insulin [Homo sapiens] &gt;pdb|3I40|A Chain A, Human Insulin [Homo sapiens] &gt;pdb|3ILG|A Chain A, Crystal Structure Of Humnan Insulin Sr+2 Complex [Homo sapiens] &gt;pdb|3ILG|C Chain C, Crystal Structure Of Humnan Insulin Sr+2 Complex [Homo sapiens] &gt;pdb|3INC|A Chain A, Crystal Structure Of Human Insulin With Ni+2 Complex [Homo sapiens] &gt;pdb|3INC|C Chain C, Crystal Structure Of Human Insulin With Ni+2 Complex [Homo sapiens] &gt;pdb|3INS|A Chain A, INSULIN (CHAIN A) [Sus scrofa] &gt;pdb|3INS|C Chain C, INSULIN (CHAIN A) [Sus scrofa] &gt;pdb|3IR0|A Chain A, Crystal Structure Of Human Insulin Complexed With Cu+2 Metal Ion [Homo sapiens] &gt;pdb|3IR0|C Chain C, Crystal Structure Of Human Insulin Complexed With Cu+2 Metal Ion [Homo sapiens] &gt;pdb|3IR0|E Chain E, Crystal Structure Of Human Insulin Complexed With Cu+2 Metal Ion [Homo sapiens] &gt;pdb|3IR0|G Chain G, Crystal Structure Of Human Insulin Complexed With Cu+2 Metal Ion [Homo sapiens] &gt;pdb|3IR0|I Chain I, Crystal Structure Of Human Insulin Complexed With Cu+2 Metal Ion [Homo sapiens] &gt;pdb|3IR0|K Chain K, Crystal Structure Of Human Insulin Complexed With Cu+2 Metal Ion [Homo sapiens] &gt;pdb|3IR0|M Chain M, Crystal Structure Of Human Insulin Complexed With Cu+2 Metal Ion [Homo sapiens] &gt;pdb|3IR0|O Chain O, Crystal Structure Of Human Insulin Complexed With Cu+2 Metal Ion [Homo sapiens] &gt;pdb|3IR0|R Chain R, Crystal Structure Of Human Insulin Complexed With Cu+2 Metal Ion [Homo sapiens] &gt;pdb|3IR0|T Chain T, Crystal Structure Of Human Insulin Complexed With Cu+2 Metal Ion [Homo sapiens] &gt;pdb|3IR0|V Chain V, Crystal Structure Of Human Insulin Complexed With Cu+2 Metal Ion [Homo sapiens] &gt;pdb|3IR0|X Chain X, Crystal Structure Of Human Insulin Complexed With Cu+2 Metal Ion [Homo sapiens] &gt;pdb|3JSD|A Chain A, Insulin A chain [synthetic construct] &gt;pdb|3JSD|C Chain C, Insulin A chain [synthetic construct] &gt;pdb|3MTH|A Chain A, Methylparaben Insulin [Sus scrofa] &gt;pdb|3MTH|C Chain C, Methylparaben Insulin [Sus scrofa] &gt;pdb|3P2X|A Chain A, Insulin [Homo sapiens] &gt;pdb|3P2X|C Chain C, Insulin [Homo sapiens] &gt;pdb|3P33|A Chain A, Insulin [Homo sapiens] &gt;pdb|3P33|C Chain C, Insulin [Homo sapiens] &gt;pdb|3P33|E Chain E, Insulin [Homo sapiens] &gt;pdb|3P33|G Chain G, Insulin [Homo sapiens] &gt;pdb|3Q6E|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|3Q6E|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|3ROV|A Chain A, Insulin [Homo sapiens] &gt;pdb|3ROV|C Chain C, Insulin [Homo sapiens] &gt;pdb|3ROV|E Chain E, Insulin [Homo sapiens] &gt;pdb|3ROV|G Chain G, Insulin [Homo sapiens] &gt;pdb|3ROV|I Chain I, Insulin [Homo sapiens] &gt;pdb|3ROV|K Chain K, Insulin [Homo sapiens] &gt;pdb|3RTO|A Chain A, Insulin [Sus scrofa] &gt;pdb|3RTO|C Chain C, Insulin [Sus scrofa] &gt;pdb|3T2A|A Chain A, Insulin A Chain [Sus scrofa] &gt;pdb|3TT8|A Chain A, Insulin A-chain [Homo sapiens] &gt;pdb|3TT8|C Chain C, Insulin A-chain [Homo sapiens] &gt;pdb|3U4N|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|3V1G|A Chain A, Insulin [Homo sapiens] &gt;pdb|3V1G|C Chain C, Insulin [Homo sapiens] &gt;pdb|3W11|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|3W12|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|3W13|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|3W7Y|A Chain A, Insulin [Homo sapiens] &gt;pdb|3W7Y|C Chain C, Insulin [Homo sapiens] &gt;pdb|3W7Z|A Chain A, Insulin [Homo sapiens] &gt;pdb|3W7Z|C Chain C, Insulin [Homo sapiens] &gt;pdb|3W80|A Chain A, Insulin [Homo sapiens] &gt;pdb|3W80|C Chain C, Insulin [Homo sapiens] &gt;pdb|3W80|E Chain E, Insulin [Homo sapiens] &gt;pdb|3W80|G Chain G, Insulin [Homo sapiens] &gt;pdb|3ZI3|A Chain A, Insulin [Homo sapiens] &gt;pdb|3ZQR|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|3ZQR|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|3ZQR|E Chain E, Insulin A Chain [Homo sapiens] &gt;pdb|3ZQR|G Chain G, Insulin A Chain [Homo sapiens] &gt;pdb|3ZQR|I Chain I, Insulin A Chain [Homo sapiens] &gt;pdb|3ZQR|K Chain K, Insulin A Chain [Homo sapiens] &gt;pdb|3ZS2|A Chain A, INSULIN A CHAIN [Homo sapiens] &gt;pdb|3ZS2|C Chain C, INSULIN A CHAIN [Homo sapiens] &gt;pdb|3ZS2|E Chain E, INSULIN A CHAIN [Homo sapiens] &gt;pdb|3ZS2|G Chain G, INSULIN A CHAIN [Homo sapiens] &gt;pdb|3ZS2|I Chain I, INSULIN A CHAIN [Homo sapiens] &gt;pdb|3ZS2|K Chain K, INSULIN A CHAIN [Homo sapiens] &gt;pdb|3ZU1|A Chain A, INSULIN A CHAIN [Homo sapiens] &gt;pdb|3ZU1|C Chain C, INSULIN A CHAIN [Homo sapiens] &gt;pdb|4AIY|A Chain A, R6 Human Insulin Hexamer (Symmetric), Nmr, &apos;green&apos; Substate, Average Structure [synthetic construct] &gt;pdb|4AIY|C Chain C, R6 Human Insulin Hexamer (Symmetric), Nmr, &apos;green&apos; Substate, Average Structure [synthetic construct] &gt;pdb|4AIY|E Chain E, R6 Human Insulin Hexamer (Symmetric), Nmr, &apos;green&apos; Substate, Average Structure [synthetic construct] &gt;pdb|4AIY|G Chain G, R6 Human Insulin Hexamer (Symmetric), Nmr, &apos;green&apos; Substate, Average Structure [synthetic construct] &gt;pdb|4AIY|I Chain I, R6 Human Insulin Hexamer (Symmetric), Nmr, &apos;green&apos; Substate, Average Structure [synthetic construct] &gt;pdb|4AIY|K Chain K, R6 Human Insulin Hexamer (Symmetric), Nmr, &apos;green&apos; Substate, Average Structure [synthetic construct] &gt;pdb|4AJX|A Chain A, Insulin [Homo sapiens] &gt;pdb|4AJX|C Chain C, Insulin [Homo sapiens] &gt;pdb|4AJX|E Chain E, Insulin [Homo sapiens] &gt;pdb|4AJX|G Chain G, Insulin [Homo sapiens] &gt;pdb|4AJX|I Chain I, Insulin [Homo sapiens] &gt;pdb|4AJX|K Chain K, Insulin [Homo sapiens] &gt;pdb|4AJZ|A Chain A, INSULIN A CHAIN [Homo sapiens] &gt;pdb|4AJZ|C Chain C, INSULIN A CHAIN [Homo sapiens] &gt;pdb|4AK0|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4AKJ|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4AKJ|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4CXL|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4CXN|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4CY7|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4CY7|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4EWW|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4EWW|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4EWX|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4EWX|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4EWZ|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4EWZ|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4EX0|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4EX0|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4EX1|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4EX1|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4EXX|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4EXX|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4EY1|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4EY1|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4EY9|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4EY9|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4EYD|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4EYD|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4EYN|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4EYN|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4EYP|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4EYP|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4F0N|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4F0N|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4F0O|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4F0O|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4F1A|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4F1A|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4F1B|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4F1B|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4F1C|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4F1C|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4F1D|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4F1D|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4F1F|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4F1F|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4F1G|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4F1G|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4F4T|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4F4T|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4F4V|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4F4V|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4F51|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4F51|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4F8F|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4F8F|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4FG3|A Chain A, Insulin [Homo sapiens] &gt;pdb|4FG3|C Chain C, Insulin [Homo sapiens] &gt;pdb|4FKA|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4FKA|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4GBC|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4GBC|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4GBI|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4GBI|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4GBK|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4GBK|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4GBL|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4GBL|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4GBN|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4GBN|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|4INS|A Chain A, INSULIN (CHAIN A) [Sus scrofa] &gt;pdb|4INS|C Chain C, INSULIN (CHAIN A) [Sus scrofa] &gt;pdb|4IUZ|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4NIB|A Chain A, Insulin A chain &gt;pdb|4OGA|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|4P65|A Chain A, Insulin &gt;pdb|4P65|C Chain C, Insulin &gt;pdb|4P65|E Chain E, Insulin &gt;pdb|4P65|G Chain G, Insulin &gt;pdb|4P65|I Chain I, Insulin &gt;pdb|4P65|K Chain K, Insulin &gt;pdb|4RXW|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4RXW|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4UNE|A Chain A, INSULIN A CHAIN &gt;pdb|4UNE|C Chain C, INSULIN A CHAIN &gt;pdb|4UNG|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4UNG|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|4UNH|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4XC4|A Chain A, Insulin [Homo sapiens] &gt;pdb|4XC4|C Chain C, Insulin [Homo sapiens] &gt;pdb|5AIY|A Chain A, R6 Human Insulin Hexamer (Symmetric), Nmr, &apos;red&apos; Substate, Average Structure [synthetic construct] &gt;pdb|5AIY|C Chain C, R6 Human Insulin Hexamer (Symmetric), Nmr, &apos;red&apos; Substate, Average Structure [synthetic construct] &gt;pdb|5AIY|E Chain E, R6 Human Insulin Hexamer (Symmetric), Nmr, &apos;red&apos; Substate, Average Structure [synthetic construct] &gt;pdb|5AIY|G Chain G, R6 Human Insulin Hexamer (Symmetric), Nmr, &apos;red&apos; Substate, Average Structure [synthetic construct] &gt;pdb|5AIY|I Chain I, R6 Human Insulin Hexamer (Symmetric), Nmr, &apos;red&apos; Substate, Average Structure [synthetic construct] &gt;pdb|5AIY|K Chain K, R6 Human Insulin Hexamer (Symmetric), Nmr, &apos;red&apos; Substate, Average Structure [synthetic construct] &gt;pdb|5BOQ|A Chain A, Insulin [Homo sapiens] &gt;pdb|5BOQ|C Chain C, Insulin [Homo sapiens] &gt;pdb|5BOQ|E Chain E, Insulin [Homo sapiens] &gt;pdb|5BOQ|G Chain G, Insulin [Homo sapiens] &gt;pdb|5BPO|A Chain A, Insulin [Homo sapiens] &gt;pdb|5BPO|C Chain C, Insulin [Homo sapiens] &gt;pdb|5BQQ|A Chain A, Insulin [Homo sapiens] &gt;pdb|5BQQ|C Chain C, Insulin [Homo sapiens] &gt;pdb|5BQQ|E Chain E, Insulin [Homo sapiens] &gt;pdb|5BQQ|G Chain G, Insulin [Homo sapiens] &gt;pdb|5BQQ|I Chain I, Insulin [Homo sapiens] &gt;pdb|5BQQ|K Chain K, Insulin [Homo sapiens] &gt;pdb|5BTS|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|5CNY|A Chain A, Insulin [Homo sapiens] &gt;pdb|5CNY|C Chain C, Insulin [Homo sapiens] &gt;pdb|5CO2|A Chain A, Insulin [Homo sapiens] &gt;pdb|5CO2|C Chain C, Insulin [Homo sapiens] &gt;pdb|5CO6|A Chain A, Insulin [Homo sapiens] &gt;pdb|5CO6|C Chain C, Insulin [Homo sapiens] &gt;pdb|5CO9|A Chain A, Insulin [Homo sapiens] &gt;pdb|5CO9|C Chain C, Insulin [Homo sapiens] &gt;pdb|5D52|A Chain A, Insulin A Chain [Sus scrofa] &gt;pdb|5D53|A Chain A, Insulin B Chain [Sus scrofa] &gt;pdb|5D54|A Chain A, Insulin B Chain [Sus scrofa] &gt;pdb|5D5E|A Chain A, Insulin A Chain [Sus scrofa] &gt;pdb|5E7W|A Chain A, Insulin [Homo sapiens] &gt;pdb|5E7W|C Chain C, Insulin [Homo sapiens] &gt;pdb|5EMS|A Chain A, Insulin [Homo sapiens] &gt;pdb|5EMS|C Chain C, Insulin [Homo sapiens] &gt;pdb|5EMS|E Chain E, Insulin [Homo sapiens] &gt;pdb|5EMS|G Chain G, Insulin [Homo sapiens] &gt;pdb|5EMS|I Chain I, Insulin [Homo sapiens] &gt;pdb|5EMS|K Chain K, Insulin [Homo sapiens] &gt;pdb|5EN9|A Chain A, Insulin chain A [Homo sapiens] &gt;pdb|5ENA|A Chain A, Insulin chain A [Homo sapiens] &gt;pdb|5FB6|A Chain A, Insulin Chain A [Sus scrofa] &gt;pdb|5HPR|A Chain A, Insulin A-Chain [Homo sapiens] &gt;pdb|5HPU|A Chain A, Insulin, chain A [Homo sapiens] &gt;pdb|5HPU|C Chain C, Insulin, chain A [Homo sapiens] &gt;pdb|5HQI|A Chain A, Insulin A-Chain [Homo sapiens] &gt;pdb|5HRQ|A Chain A, Insulin A-Chain [Homo sapiens] &gt;pdb|5HRQ|C Chain C, Insulin A-Chain [Homo sapiens] &gt;pdb|5HRQ|E Chain E, Insulin A-Chain [Homo sapiens] &gt;pdb|5HRQ|G Chain G, Insulin A-Chain [Homo sapiens] &gt;pdb|5HRQ|I Chain I, Insulin A-Chain [Homo sapiens] &gt;pdb|5HRQ|K Chain K, Insulin A-Chain [Homo sapiens] &gt;pdb|5LIS|A Chain A, Insulin [Sus scrofa] &gt;pdb|5MAM|0 Chain 0, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|2 Chain 2, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|4 Chain 4, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|E Chain E, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|G Chain G, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|I Chain I, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|K Chain K, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|M Chain M, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|O Chain O, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|Q Chain Q, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|S Chain S, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|U Chain U, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|W Chain W, Insulin A Chain [Homo sapiens] &gt;pdb|5MAM|Y Chain Y, Insulin A Chain [Homo sapiens] &gt;pdb|5MT3|A Chain A, Insulin [Homo sapiens] &gt;pdb|5MT3|C Chain C, Insulin [Homo sapiens] &gt;pdb|5MT3|E Chain E, Insulin [Homo sapiens] &gt;pdb|5MT3|G Chain G, Insulin [Homo sapiens] &gt;pdb|5MT3|I Chain I, Insulin [Homo sapiens] &gt;pdb|5MT3|K Chain K, Insulin [Homo sapiens] &gt;pdb|5MT3|M Chain M, Insulin [Homo sapiens] &gt;pdb|5MT3|O Chain O, Insulin [Homo sapiens] &gt;pdb|5MT3|Q Chain Q, Insulin [Homo sapiens] &gt;pdb|5MT3|S Chain S, Insulin [Homo sapiens] &gt;pdb|5MT3|U Chain U, Insulin [Homo sapiens] &gt;pdb|5MT3|W Chain W, Insulin [Homo sapiens] &gt;pdb|5MT3|Y Chain Y, Insulin [Homo sapiens] &gt;pdb|5MT3|a Chain a, Insulin [Homo sapiens] &gt;pdb|5MT3|c Chain c, Insulin [Homo sapiens] &gt;pdb|5MT3|e Chain e, Insulin [Homo sapiens] &gt;pdb|5MT9|A Chain A, Insulin [Homo sapiens] &gt;pdb|5MT9|C Chain C, Insulin [Homo sapiens] &gt;pdb|5MT9|E Chain E, Insulin [Homo sapiens] &gt;pdb|5MT9|G Chain G, Insulin [Homo sapiens] &gt;pdb|5MT9|I Chain I, Insulin [Homo sapiens] &gt;pdb|5MT9|K Chain K, Insulin [Homo sapiens] &gt;pdb|5MT9|M Chain M, Insulin [Homo sapiens] &gt;pdb|5MT9|O Chain O, Insulin [Homo sapiens] &gt;pdb|5MT9|Q Chain Q, Insulin [Homo sapiens] &gt;pdb|5MT9|S Chain S, Insulin [Homo sapiens] &gt;pdb|5MT9|U Chain U, Insulin [Homo sapiens] &gt;pdb|5MT9|W Chain W, Insulin [Homo sapiens] &gt;pdb|5MT9|Y Chain Y, Insulin [Homo sapiens] &gt;pdb|5MT9|a Chain a, Insulin [Homo sapiens] &gt;pdb|5MT9|c Chain c, Insulin [Homo sapiens] &gt;pdb|5MT9|e Chain e, Insulin [Homo sapiens] &gt;pdb|5UDP|A Chain A, Insulin Lispro A Chain [Homo sapiens] &gt;pdb|5UDP|C Chain C, Insulin Lispro A Chain [Homo sapiens] &gt;pdb|5UDP|E Chain E, Insulin Lispro A Chain [Homo sapiens] &gt;pdb|5UDP|G Chain G, Insulin Lispro A Chain [Homo sapiens] &gt;pdb|5UDP|I Chain I, Insulin Lispro A Chain [Homo sapiens] &gt;pdb|5UDP|K Chain K, Insulin Lispro A Chain [Homo sapiens] &gt;pdb|5UOZ|A Chain A, Insulin Chain A [Homo sapiens] &gt;pdb|5UQA|A Chain A, Insulin, chain A [Homo sapiens] &gt;pdb|5UQA|C Chain C, Insulin, chain A [Homo sapiens] &gt;pdb|5UQA|E Chain E, Insulin, chain A [Homo sapiens] &gt;pdb|5UQA|G Chain G, Insulin, chain A [Homo sapiens] &gt;pdb|5UQA|I Chain I, Insulin, chain A [Homo sapiens] &gt;pdb|5UQA|K Chain K, Insulin, chain A [Homo sapiens] &gt;pdb|5URT|A Chain A, Insulin Chain A [Homo sapiens] &gt;pdb|5URU|A Chain A, Insulin Chain A [Homo sapiens] &gt;pdb|5URU|C Chain C, Insulin Chain A [Homo sapiens] &gt;pdb|5URU|E Chain E, Insulin Chain A [Homo sapiens] &gt;pdb|5URU|G Chain G, Insulin Chain A [Homo sapiens] &gt;pdb|5USP|A Chain A, Insulin Chain A [Homo sapiens] &gt;pdb|5USS|A Chain A, Insulin Chain A [Homo sapiens] &gt;pdb|5USS|C Chain C, Insulin Chain A [Homo sapiens] &gt;pdb|5USV|A Chain A, Insulin Chain A [Homo sapiens] &gt;pdb|5UU2|A Chain A, Insulin Chain A [Homo sapiens] &gt;pdb|5UU3|A Chain A, Insulin, chain B [Homo sapiens] &gt;pdb|5UU3|C Chain C, Insulin, chain B [Homo sapiens] &gt;pdb|5UU3|E Chain E, Insulin, chain B [Homo sapiens] &gt;pdb|5UU3|G Chain G, Insulin, chain B [Homo sapiens] &gt;pdb|5UU3|I Chain I, Insulin, chain B [Homo sapiens] &gt;pdb|5UU3|K Chain K, Insulin, chain B [Homo sapiens] &gt;pdb|5UU3|M Chain M, Insulin, chain B [Homo sapiens] &gt;pdb|5UU3|O Chain O, Insulin, chain B [Homo sapiens] &gt;pdb|5UU3|Q Chain Q, Insulin, chain B [Homo sapiens] &gt;pdb|5UU3|S Chain S, Insulin, chain B [Homo sapiens] &gt;pdb|5UU3|U Chain U, Insulin, chain B [Homo sapiens] &gt;pdb|5UU3|W Chain W, Insulin, chain B [Homo sapiens] &gt;pdb|5UU4|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|5UU4|C Chain C, Insulin A Chain [Homo sapiens] &gt;pdb|6CE7|N Chain N, Insulin A chain [Homo sapiens] &gt;pdb|6CE9|K Chain K, Insulin A chain [Homo sapiens] &gt;pdb|6CE9|N Chain N, Insulin A chain [Homo sapiens] &gt;pdb|6CEB|K Chain K, Insulin A chain [Homo sapiens] &gt;pdb|6CEB|N Chain N, Insulin A chain [Homo sapiens] &gt;pdb|6CK2|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|6CK2|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|6GNQ|A Chain A, Insulin [Homo sapiens] &gt;pdb|6GNQ|C Chain C, Insulin [Homo sapiens] &gt;pdb|6GNQ|E Chain E, Insulin [Homo sapiens] &gt;pdb|6GNQ|G Chain G, Insulin [Homo sapiens] &gt;pdb|6GNQ|I Chain I, Insulin [Homo sapiens] &gt;pdb|6GNQ|K Chain K, Insulin [Homo sapiens] &gt;pdb|6GNQ|M Chain M, Insulin [Homo sapiens] &gt;pdb|6GNQ|O Chain O, Insulin [Homo sapiens] &gt;pdb|6GNQ|Q Chain Q, Insulin [Homo sapiens] &gt;pdb|6GNQ|S Chain S, Insulin [Homo sapiens] &gt;pdb|6GNQ|U Chain U, Insulin [Homo sapiens] &gt;pdb|6GNQ|W Chain W, Insulin [Homo sapiens] &gt;pdb|6GV0|G Chain G, Insulin [Homo sapiens] &gt;pdb|6GV0|I Chain I, Insulin [Homo sapiens] &gt;pdb|6HN5|A Chain A, Insulin [Homo sapiens] &gt;pdb|6JR3|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|6JR3|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|6JR3|E Chain E, Insulin A chain [Homo sapiens] &gt;pdb|6JR3|G Chain G, Insulin A chain [Homo sapiens] &gt;pdb|6JR3|I Chain I, Insulin A chain [Homo sapiens] &gt;pdb|6JR3|K Chain K, Insulin A chain [Homo sapiens] &gt;pdb|6NWV|A Chain A, Insulin A chain [Homo sapiens] &gt;pdb|6NWV|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|6NWV|E Chain E, Insulin A chain [Homo sapiens] &gt;pdb|6NWV|G Chain G, Insulin A chain [Homo sapiens] &gt;pdb|6NWV|I Chain I, Insulin A chain [Homo sapiens] &gt;pdb|6NWV|K Chain K, Insulin A chain [Homo sapiens] &gt;pdb|6O17|A Chain A, Insulin chain A [Homo sapiens] &gt;pdb|6P4Z|A Chain A, Insulin chain A [Homo sapiens] &gt;pdb|6P4Z|C Chain C, Insulin chain A [Homo sapiens] &gt;pdb|6S34|A Chain A, Insulin [Homo sapiens] &gt;pdb|6SOF|E Chain E, Insulin [Homo sapiens] &gt;pdb|6SOF|G Chain G, Insulin [Homo sapiens] &gt;pdb|6SOF|I Chain I, Insulin [Homo sapiens] &gt;pdb|6SOF|K Chain K, Insulin [Homo sapiens] &gt;pdb|6VEP|A Chain A, Insulin chain A [Homo sapiens] &gt;pdb|6VEP|G Chain G, Insulin chain A [Homo sapiens] &gt;pdb|6VEP|M Chain M, Insulin chain A [Homo sapiens] &gt;pdb|6VEP|S Chain S, Insulin chain A [Homo sapiens] &gt;pdb|7INS|A Chain A, Insulin (chain A) [Sus scrofa] &gt;pdb|7INS|C Chain C, Insulin (chain A) [Sus scrofa] &gt;pdb|7INS|E Chain E, Insulin (chain A) [Sus scrofa] &gt;pdb|9INS|A Chain A, INSULIN (CHAIN A) [Sus scrofa]</Hit_def>
+  <Hit_accession>1A7F_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.577781</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|2KXK|A</Hit_id>
+  <Hit_def>Chain A, Insulin A chain [Homo sapiens] &gt;pdb|2LGB|A Chain A, Insulin A chain [Homo sapiens]</Hit_def>
+  <Hit_accession>2KXK_A</Hit_accession>
+  <Hit_len>22</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.587784</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>22</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCDS</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCNG</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|3KQ6|A</Hit_id>
+  <Hit_def>Chain A, Enhancing The Therapeutic Properties Of A Protein By A Desig Binding Site, Structural Principles Of A Novel Long-Acting Analog [Homo sapiens] &gt;pdb|3KQ6|C Chain C, Enhancing The Therapeutic Properties Of A Protein By A Desig Binding Site, Structural Principles Of A Novel Long-Acting Analog [Homo sapiens]</Hit_def>
+  <Hit_accession>3KQ6_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.603481</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVHQCCHSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V  CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|1J73|A</Hit_id>
+  <Hit_def>Chain A, Insulin A [synthetic construct] &gt;pdb|1J73|C Chain C, Insulin A [synthetic construct]</Hit_def>
+  <Hit_accession>1J73_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.623502</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCXSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|6B3Q|a</Hit_id>
+  <Hit_def>Chain a, Insulin [Homo sapiens] &gt;pdb|6B3Q|b Chain b, Insulin [Homo sapiens] &gt;pdb|6B70|a Chain a, Insulin [Homo sapiens] &gt;pdb|6B70|c Chain c, Insulin [Homo sapiens] &gt;pdb|6BFC|a Chain a, Insulin [Homo sapiens] &gt;pdb|6BFC|b Chain b, Insulin [Homo sapiens] &gt;pdb|6JK8|C Chain C, Insulin [Homo sapiens] &gt;pdb|6JK8|D Chain D, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>6B3Q_a</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>0.629855</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|1BQT|A</Hit_id>
+  <Hit_def>Chain A, INSULIN-LIKE GROWTH FACTOR-I [Homo sapiens] &gt;pdb|1GZR|B Chain B, INSULIN-LIKE GROWTH FACTOR I [Homo sapiens] &gt;pdb|1GZY|B Chain B, INSULIN-LIKE GROWTH FACTOR I [Homo sapiens] &gt;pdb|1GZZ|B Chain B, INSULIN-LIKE GROWTH FACTOR I [Homo sapiens] &gt;pdb|1H02|B Chain B, INSULIN-LIKE GROWTH FACTOR I [Homo sapiens] &gt;pdb|1H59|A Chain A, Complex Of Igfbp-5 With Igf-I [Homo sapiens] &gt;pdb|1IMX|A Chain A, Insulin-like Growth Factor 1a [Homo sapiens] &gt;pdb|1PMX|A Chain A, Insulin-like growth factor IB [Homo sapiens] &gt;pdb|1WQJ|I Chain I, Insulin-like Growth Factor Ib [Homo sapiens] &gt;pdb|2DSP|I Chain I, Structural Basis For The Inhibition Of Insulin-Like Growth Factors By Igf Binding Proteins [Homo sapiens] &gt;pdb|2DSQ|C Chain C, Structural Basis For The Inhibition Of Insulin-Like Growth Factors By Igf Binding Proteins [Homo sapiens] &gt;pdb|2DSQ|I Chain I, Structural Basis For The Inhibition Of Insulin-Like Growth Factors By Igf Binding Proteins [Homo sapiens] &gt;pdb|2DSR|I Chain I, Structural Basis For The Inhibition Of Insulin-Like Growth Factors By Igf Binding Proteins [Homo sapiens] &gt;pdb|2GF1|A Chain A, INSULIN-LIKE GROWTH FACTOR I [Homo sapiens] &gt;pdb|3GF1|A Chain A, INSULIN-LIKE GROWTH FACTOR I [Homo sapiens] &gt;pdb|4XSS|B Chain B, Insulin-like growth factor I [Homo sapiens] &gt;pdb|5U8Q|B Chain B, Insulin-like growth factor I [Homo sapiens] &gt;pdb|6FF3|B Chain B, Insulin-like growth factor I [Homo sapiens] &gt;pdb|6PYH|B Chain B, Insulin-like growth factor I [Homo sapiens]</Hit_def>
+  <Hit_accession>1BQT_A</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.652018</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYC</Hsp_qseq>
+      <Hsp_hseq>GIVDECCFRSCDLRRLEMYC</Hsp_hseq>
+      <Hsp_midline>G+VD CC  SC    L  YC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|2JZQ|A</Hit_id>
+  <Hit_def>Chain A, Insulin [unidentified] &gt;pdb|2LWZ|A Chain A, SINGLE-CHAIN INSULIN [Homo sapiens]</Hit_def>
+  <Hit_accession>2JZQ_A</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>0.666298</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCHSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|2QIU|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Homo sapiens] &gt;pdb|2QIU|C Chain C, Insulin [Homo sapiens] &gt;pdb|2R34|A Chain A, Crystal Structure Of Mn Human Arg-Insulin [Homo sapiens] &gt;pdb|2R34|C Chain C, Crystal Structure Of Mn Human Arg-Insulin [Homo sapiens] &gt;pdb|2R35|A Chain A, Insulin [Homo sapiens] &gt;pdb|2R35|C Chain C, Insulin [Homo sapiens] &gt;pdb|2R36|A Chain A, Crystal Structure Of Ni Human Arg-Insulin [synthetic construct] &gt;pdb|2R36|C Chain C, Crystal Structure Of Ni Human Arg-Insulin [synthetic construct]</Hit_def>
+  <Hit_accession>2QIU_A</Hit_accession>
+  <Hit_len>22</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.72283</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>22</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|6INS|E</Hit_id>
+  <Hit_def>Chain E, X-Ray Analysis Of The Single Chain B29-A1 Peptide-Linked Insulin Molecule. A Completely Inactive Analogue [Sus scrofa] &gt;pdb|6INS|F Chain F, X-Ray Analysis Of The Single Chain B29-A1 Peptide-Linked Insulin Molecule. A Completely Inactive Analogue [Sus scrofa]</Hit_def>
+  <Hit_accession>6INS_E</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.76517</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|6TYH|A</Hit_id>
+  <Hit_def>Chain A, Insulin A chain [Homo sapiens] &gt;pdb|6TYH|C Chain C, Insulin A chain [Homo sapiens] &gt;pdb|6TYH|E Chain E, Insulin A chain [Homo sapiens] &gt;pdb|6TYH|G Chain G, Insulin A chain [Homo sapiens] &gt;pdb|6TYH|I Chain I, Insulin A chain [Homo sapiens] &gt;pdb|6TYH|K Chain K, Insulin A chain [Homo sapiens]</Hit_def>
+  <Hit_accession>6TYH_A</Hit_accession>
+  <Hit_len>22</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.771603</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|3LRI|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (INSULIN-LIKE GROWTH FACTOR I) [Homo sapiens]</Hit_def>
+  <Hit_accession>3LRI_A</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.802442</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYC</Hsp_qseq>
+      <Hsp_hseq>GIVDECCFRSCDLRRLEMYC</Hsp_hseq>
+      <Hsp_midline>G+VD CC  SC    L  YC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|4EFX|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Homo sapiens] &gt;pdb|4EFX|C Chain C, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>4EFX_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.84547</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSCCSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|4A7E|A</Hit_id>
+  <Hit_def>Chain A, INSULIN A CHAIN [Sus scrofa]</Hit_def>
+  <Hit_accession>4A7E_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.864058</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEXCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|1ZEI|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Sus scrofa] &gt;pdb|1ZEI|B Chain B, Insulin [Sus scrofa] &gt;pdb|1ZEI|C Chain C, Insulin [Sus scrofa] &gt;pdb|1ZEI|D Chain D, Insulin [Sus scrofa] &gt;pdb|1ZEI|E Chain E, Insulin [Sus scrofa] &gt;pdb|1ZEI|F Chain F, Insulin [Sus scrofa]</Hit_def>
+  <Hit_accession>1ZEI_A</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.924645</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|6PXV|D</Hit_id>
+  <Hit_def>Chain D, Insulin [Homo sapiens] &gt;pdb|6PXV|E Chain E, Insulin [Homo sapiens] &gt;pdb|6PXV|F Chain F, Insulin [Homo sapiens] &gt;pdb|6PXV|G Chain G, Insulin [Homo sapiens] &gt;pdb|6PXW|C Chain C, Insulin [Homo sapiens] &gt;pdb|6PXW|D Chain D, Insulin [Homo sapiens] &gt;pdb|6PXW|E Chain E, Insulin [Homo sapiens] &gt;pdb|6PXW|F Chain F, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>6PXV_D</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>0.972571</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|5MWQ|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>5MWQ_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.973828</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCK</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|3GKY|A</Hit_id>
+  <Hit_def>Chain A, Insulin A chain [Sus scrofa] &gt;pdb|3GKY|C Chain C, Insulin A chain [Sus scrofa]</Hit_def>
+  <Hit_accession>3GKY_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.995233</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCHSICSLYQVENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   +  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|2WBY|C</Hit_id>
+  <Hit_def>Chain C, Crystal Structure Of Human Insulin-Degrading Enzyme In Complex With Insulin [synthetic construct] &gt;pdb|2WBY|E Chain E, Crystal Structure Of Human Insulin-Degrading Enzyme In Complex With Insulin [synthetic construct] &gt;pdb|5CJO|a Chain a, Insulin [Homo sapiens] &gt;pdb|5WOB|a Chain a, Insulin [Homo sapiens] &gt;pdb|5WOB|b Chain b, Insulin [Homo sapiens] &gt;pdb|5WOB|c Chain c, Insulin [Homo sapiens] &gt;pdb|5WOB|d Chain d, Insulin [Homo sapiens] &gt;pdb|5WOB|e Chain e, Insulin [Homo sapiens] &gt;pdb|5WOB|f Chain f, Insulin [Homo sapiens] &gt;pdb|5WOB|g Chain g, Insulin [Homo sapiens] &gt;pdb|5WOB|h Chain h, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>2WBY_C</Hit_accession>
+  <Hit_len>20</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>1.02308</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>20</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYC</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYC</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|1SJU|A</Hit_id>
+  <Hit_def>Chain A, PROINSULIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1SJU_A</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>1.06002</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|6UM2|B</Hit_id>
+  <Hit_def>Chain B, Insulin-like growth factor II [Homo sapiens]</Hit_def>
+  <Hit_accession>6UM2_B</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>1.07369</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYC</Hsp_qseq>
+      <Hsp_hseq>GIVEECCFRSCDLALLETYC</Hsp_hseq>
+      <Hsp_midline>G+V+ CC  SC  + L  YC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|5L3M|A</Hit_id>
+  <Hit_def>Chain A, Insulin-like growth factor II [Homo sapiens]</Hit_def>
+  <Hit_accession>5L3M_A</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>1.09884</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYC</Hsp_qseq>
+      <Hsp_hseq>GIVEECCFRSCDLALLETYC</Hsp_hseq>
+      <Hsp_midline>G+V+ CC  SC  + L  YC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|5L3N|A</Hit_id>
+  <Hit_def>Chain A, Insulin-like growth factor II [Homo sapiens]</Hit_def>
+  <Hit_accession>5L3N_A</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>1.11064</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYC</Hsp_qseq>
+      <Hsp_hseq>GIVEECCFRSCDLALLETYC</Hsp_hseq>
+      <Hsp_midline>G+V+ CC  SC  + L  YC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|4IYD|A</Hit_id>
+  <Hit_def>Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|4IYF|A Chain A, Insulin A Chain [Homo sapiens] &gt;pdb|5VIZ|A Chain A, Insulin, Chain Beta [Homo sapiens] &gt;pdb|6K59|A Chain A, Glargine Insulin Chain-A [synthetic construct]</Hit_def>
+  <Hit_accession>4IYD_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>1.13389</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>20</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYC</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYC</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|1IGL|A</Hit_id>
+  <Hit_def>Chain A, INSULIN-LIKE GROWTH FACTOR II [Homo sapiens] &gt;pdb|2L29|B Chain B, Insulin-like growth factor II [Homo sapiens] &gt;pdb|2V5P|C Chain C, INSULIN-LIKE GROWTH FACTOR II [Homo sapiens] &gt;pdb|2V5P|D Chain D, INSULIN-LIKE GROWTH FACTOR II [Homo sapiens] &gt;pdb|3E4Z|C Chain C, Crystal Structure Of Human Insulin Degrading Enzyme In Complex With Insulin-Like Growth Factor Ii [Homo sapiens] &gt;pdb|3E4Z|D Chain D, Crystal Structure Of Human Insulin Degrading Enzyme In Complex With Insulin-Like Growth Factor Ii [Homo sapiens] &gt;pdb|3KR3|D Chain D, Crystal Structure Of Igf-Ii Antibody Complex [Homo sapiens] &gt;pdb|5L3L|A Chain A, Insulin-like growth factor II [Homo sapiens] &gt;pdb|6VWG|I Chain I, Insulin-like growth factor II [Homo sapiens] &gt;pdb|6VWI|I Chain I, Insulin-like growth factor II [Homo sapiens]</Hit_def>
+  <Hit_accession>1IGL_A</Hit_accession>
+  <Hit_len>67</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>1.16735</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYC</Hsp_qseq>
+      <Hsp_hseq>GIVEECCFRSCDLALLETYC</Hsp_hseq>
+      <Hsp_midline>G+V+ CC  SC  + L  YC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|1EFE|A</Hit_id>
+  <Hit_def>Chain A, An Active Mini-Proinsulin, M2pi [Homo sapiens]</Hit_def>
+  <Hit_accession>1EFE_A</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>1.19526</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|2L1Z|A</Hit_id>
+  <Hit_def>Chain A, Insulin A chain [Homo sapiens] &gt;pdb|3V19|A Chain A, Insulin [Homo sapiens] &gt;pdb|3V19|C Chain C, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>2L1Z_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>1.22352</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GLLEQCCHSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+++ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|1XW7|A</Hit_id>
+  <Hit_def>Chain A, Insulin [synthetic construct] &gt;pdb|1XW7|C Chain C, Insulin [synthetic construct]</Hit_def>
+  <Hit_accession>1XW7_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.483</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>1.45582</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GILEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+++ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|6RVA|X</Hit_id>
+  <Hit_def>Chain X, Insulin-like growth factor I [Homo sapiens]</Hit_def>
+  <Hit_accession>6RVA_X</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>1.48497</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYC</Hsp_qseq>
+      <Hsp_hseq>GIVDECCFRSCDLRRLDMYC</Hsp_hseq>
+      <Hsp_midline>G+VD CC  SC    L  YC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|2KQP|A</Hit_id>
+  <Hit_def>Chain A, Insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>2KQP_A</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>1.75222</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|1K3M|A</Hit_id>
+  <Hit_def>Chain A, Nmr Structure Of Human Insulin Mutant Ile-A2-Ala, His-B10- Asp, Pro-B28-Lys, Lys-B29-Pro, 15 Structures [synthetic construct]</Hit_def>
+  <Hit_accession>1K3M_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.0978</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>2.10601</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GAVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|2JUM|A</Hit_id>
+  <Hit_def>Chain A, Insulin A chain [unidentified]</Hit_def>
+  <Hit_accession>2JUM_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.0978</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>2.76241</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GITEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+ + CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|1KMF|A</Hit_id>
+  <Hit_def>Chain A, Insulin &gt;pdb|1Q4V|A Chain A, Insulin [synthetic construct] &gt;pdb|1Q4V|C Chain C, Insulin [synthetic construct]</Hit_def>
+  <Hit_accession>1KMF_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.0978</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>2.76241</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GXVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|2JUU|A</Hit_id>
+  <Hit_def>Chain A, Insulin A chain [unidentified] &gt;pdb|2JUV|A Chain A, Insulin A chain [unidentified]</Hit_def>
+  <Hit_accession>2JUU_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>22.7126</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>3.6623</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIXEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+ + CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|1MHI|A</Hit_id>
+  <Hit_def>Chain A, INSULIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1MHI_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>5.83592</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>VVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>IVEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|3FQ9|A</Hit_id>
+  <Hit_def>Chain A, Insulin &gt;pdb|3FQ9|C Chain C, Insulin</Hit_def>
+  <Hit_accession>3FQ9_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>5.96369</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>VVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>IVEQCCXSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>+V+ CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|5AZZ|A</Hit_id>
+  <Hit_def>Chain A, Insulin A Chain [Bos taurus]</Hit_def>
+  <Hit_accession>5AZZ_A</Hit_accession>
+  <Hit_len>22</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>6.77229</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIVEQCXASVCSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+V+ C  + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|1IOG|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (INSULIN PRECURSOR) [Homo sapiens]</Hit_def>
+  <Hit_accession>1IOG_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>7.24674</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GVVDSCCRNSCSFSTLRAYCD</Hsp_qseq>
+      <Hsp_hseq>GIGEQCCTSICSLYQLENYCN</Hsp_hseq>
+      <Hsp_midline>G+ + CC + CS   L  YC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>115453</Statistics_db-num>
+      <Statistics_db-len>30120933</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
